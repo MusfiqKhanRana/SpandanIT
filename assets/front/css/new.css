@@ -1,0 +1,272 @@
+.page-title-area::before{
+display: none;
+}
+.page-title-area{
+    position: relative;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+.page-title-area .overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(32, 27, 66, 0.8);
+}
+
+.page-title-area .page-title-item .title,
+.header-area.innar-page-menu .header-top .header-left-side ul li a,
+.header-area.innar-page-menu .header-top .header-right-social ul li a,
+.header-area.innar-page-menu .navigation .navbar .navbar-nav .nav-item a,
+.page-title-area .page-title-item nav .breadcrumb li a
+{
+color: #fff; 
+} 
+
+.get-in-touch-area{
+    overflow : hidden;
+}
+.header-area.innar-page-menu .header-top {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.header-area.innar-page-menu .navigation.sticky .navbar .navbar-nav .nav-item a{
+    color: #4f79a9;
+}
+.our-choose-area .our-choose-counter{
+    margin-bottom: 30px;
+}
+.choose-area{
+    overflow: hidden;
+}
+.news-area {
+    background: none !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.latest-news-area .section-title .title {
+    margin-bottom: 40px;
+}
+.absulute{
+    position: absolute;
+}
+.intro-video-area.bg_cover{
+    overflow: hidden;
+}
+
+body{
+    position: relative;
+}
+.services-title-area{
+    overflow: hidden;
+}
+.myrow{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-top .right-area .language-change .language-menu a{
+    display: block;
+    text-align: left;
+}
+/*-----------------------------
+** Allow Cookie css 
+------------------------------*/
+
+.cookie-consent {
+    position: fixed;
+    background-color: #00142c;
+    bottom: 0px;
+    width: 100%;
+    padding: 30px 0px;
+    z-index: 10000000000;
+    color: #fff;
+  }
+  
+  .cookie-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: center;
+  }
+  
+  button.cookie-consent__agree {
+    padding: 12px 20px;
+    border: none;
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  span.cookie-consent__message {
+    background-color: transparent !important;
+  }
+  
+  span.cookie-consent__message p {
+    margin-bottom: 0px;
+    color: #fff;
+  }
+  
+  .contact-btn-captcha-wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      
+  }
+
+  .back-to-top {
+    bottom: 50px;
+    border-radius: 50%;
+}
+.back-to-top a{
+    border-radius: 50%;
+}
+
+.quick_call_area{
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    z-index: 999;
+}
+
+.quick_call_area a{
+    color: #fff;
+    background: #0c59db;
+    height: 50px;
+    display: block;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+.banner-area-2.video-section .banner-overlay{
+    background: rgba(32, 27, 66, 0.8);
+    height: 900px;
+}
+.banner-area-2.video-section .banner-overlay .banner-content{
+    padding-top: 150px;
+}
+.banner-area-2.video-section .banner-overlay .banner-content span{
+    opacity: 1;
+    margin-bottom: 15px;
+}
+
+.banner-area-2.video-section .banner-overlay .banner-content span::before{
+    display: none;
+}
+
+.banner-area-2.video-section .banner-overlay .banner-content span::after{
+    display: none;
+}
+.banner-area-2.video-section .banner-overlay .banner-content p{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+.banner-area-2.video-section .banner-overlay .banner-content ul li {
+    margin: 0px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+div#controlBar_bgndVideo {
+    display: none !important;
+}
+
+
+@media (max-width: 991px){
+    .header-area.m4 .header-nav .navigation.sticky .navbar-light .navbar-toggler {
+        color: rgba(0, 0, 0, 0.5);
+        border-color: rgba(0, 0, 0, 0.1);
+    }
+    .header-area.m4 .header-nav .navigation.sticky .navbar .navbar-toggler .toggler-icon {
+        background-color: rgb(26, 26, 26);
+    }
+    .service-details-page .side-bar-contact{
+        margin-bottom: 30px;
+    }
+    .navbar-brand img{
+        max-width: 130px;
+    }
+    .blog-grid-area.portfolio-page .side-bar-contact{
+        margin-bottom: 30px;
+    }
+    .wow{
+        visibility: visible !important;
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
+      }
+      .features-area .features-item .content .about-experience h3{
+          font-size: 50px;
+          line-height: 60px;
+      }
+}
+
+
+@media (max-width: 767px){
+    .header-area-2 .header-nav .navigation,
+    .header-area-2.header-area .header-nav .navigation,
+    .header-area-2.header-area-4.header-area .header-nav .navigation
+    {
+        top: 74px;
+    }
+    .header-area-2 .header-nav .navigation.sticky,
+    .header-area-2.header-area .header-nav .navigation.sticky,
+    .header-area-2.header-area-4.header-area .header-nav .navigation.sticky
+    {
+        top: 0;
+    }
+
+    .banner-area-2.video-section .banner-overlay {
+        height: 680px;
+    }
+    .header-area-2.header-area .header-top .header-right-social ul li a {
+        margin-left: 10px;
+    }
+    .header-top .right-area .language-change {
+        margin-left: 20px;
+    }
+    .header-top .right-area .main-btn {
+        margin-left: 20px;
+    }
+   
+}
+
+
+@media (max-width: 575px){
+    .banner-area-2.video-section .banner-overlay {
+        height: 570px;
+    }
+    .back-to-top a,
+    .quick_call_area a
+    {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 16px;
+    }
+    .contact-us-area .contact-overlay .contact-details .contact-form-area .input-box .d-inline-block.ml-4{
+        margin-left: 0px!important;
+    }
+}
+@media (max-width: 414px){
+    .header-top .right-area .language-change{
+        margin-left: 0px;
+    }
+    .header-top .right-area .main-btn{
+        margin-left: 20px;
+    }
+    .back-to-top {
+        bottom: 63px;
+    }
+}
+@media (max-width: 370px){
+   
+}
